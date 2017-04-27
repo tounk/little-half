@@ -1,0 +1,91 @@
+@import './common.scss';
+.home-bottom{margin-top: 70px;}
+.homeworklist{
+    width:100%;
+    height:100%;    
+    .home-lists{
+        
+        .home-list{
+            width:97%;
+            border:1px solid $bodercolor;
+            margin:0 0 18px 25px;
+            position: relative;
+            font-size:14px;
+            .border{
+                position:absolute;
+                width:6px;
+                height:100%;
+                background:$bg-color;
+                top:0;
+                left:0;
+            }
+            .home-title{
+                margin:20px 0 8px 22px;
+                .home-name{font-size:16px;}
+                .ave-course{
+                    padding-left: 50px;
+                }
+            }
+            .home{margin-left:22px;
+                p{
+                    line-height: 22px;
+                }
+            }
+            .finish-case{
+                overflow: hidden;
+                margin-bottom: 12px;
+                p{display: float;
+                    float:left;}
+                .home-gra{
+                    width:400px;
+                    height:15px;
+                    background: $bodercolor;
+                    border-radius: 60px;
+                    position:relative;
+                    display: float;
+                    float:left;
+                    margin:5px 20px 0 13px;
+                    .home-org{
+                        position: absolute;
+                        top:0;
+                        left:0; 
+                        height: 15px;
+                        width:250px;
+                        background:#f68f6c; 
+                        border-radius: 60px;
+                    }
+                }
+                .process{
+                    display: float;
+                    float:left;
+                    font-size:12px;
+                    margin-top: 3px;
+                    color:#f68f6c;
+                }
+                .home-btn{
+                    display: float;
+                    float:left;
+                    overflow: hidden;
+                    position:absolute;
+                    right:10px;
+                    .home-edit{display: float;float:left;}
+                    .home-del{display: float;float:left;}
+                    a{
+                        width:64px;
+                        height:26px;
+                        background:$bg-color;
+                        color:$color;
+                        line-height: 26px;
+                        display: block;
+                        font-size:13px;
+                        text-align: center;
+                        border-radius: 2px;
+                        margin-right:13px;
+                    }
+                }
+            }
+                   
+        }
+    }
+    
+}

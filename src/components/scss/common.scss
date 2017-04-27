@@ -1,0 +1,26 @@
+*{margin:0;padding:0;}
+a{text-decoration: none;}
+li{list-style: none;}
+$bg-color:#579bfc;
+$color:#fff;
+$bodercolor:#e6e6e6;
+body{
+    font-family:"微软雅黑";
+    height: 100%;
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+html{height:100%;}
+.nav{position:fixed;z-index: 1000;}
+.aside{position:fixed;}
+.title-bottom{
+    height:100%;
+    width:100%;
+    overflow: hidden;
+    display: flex;
+    .aside{
+       height:100%;
+         
+    }
+    .content{width:100%;margin-left: 85px;} 
+}

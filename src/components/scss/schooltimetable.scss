@@ -1,0 +1,222 @@
+@import './common.scss';
+.home-bottom{margin-top: 70px;}
+.schooltimetable{
+    width:100%;
+    height:100%;
+}
+.top_btn{
+//  overflow: hidden;
+    height: 55px;
+    font-size:14px;
+    position:fixed;
+    background:#fff;
+    z-index:1000;
+    width:100%;
+    min-width: 900px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    .left_btn{
+       .active_table{
+           height: 31px;
+           width: 91px;
+           background: url(../../img/activetable.png) no-repeat 5px 5px;
+           color: #579BFE;
+           font-size:14px ;
+           line-height: 28px;
+           padding-left: 25px;
+           border: 1px dashed #71aafe;
+       }
+       .class_list{
+           height: 31px;
+           width: 91px;
+           background: url(../../img/list.png) no-repeat 5px 5px;
+           color: #579BFE;
+           font-size:14px ;
+           line-height: 28px;
+           padding-left: 25px;
+           border: 1px dashed #71aafe;
+           margin-left: 16px;
+       }
+    }
+    .right_btn{
+        ul{
+            margin-right: 100px;
+        }
+        li{
+            margin-left: 20px;
+        }
+        .btn_fir{
+           height: 28px;
+           width: 86px;
+           background: url(../../img/fixedClass.png) no-repeat 0 5px;
+           color: #363C54;
+           font-size: 14px ;
+           line-height: 30px;
+           padding-left: 30px;
+        }
+        .btn_sec{
+           height: 28px;
+           width: 86px;
+           background: url(../../img/openClass.png) no-repeat 0 5px;
+           color: #363C54;
+           font-size: 14px ;
+           line-height: 30px;
+           padding-left: 30px;
+        }
+        .btn_tir{
+           height: 28px;
+           width: 86px;
+           background: url(../../img/snapClass.png) no-repeat 0 5px;
+           color: #363C54;
+           font-size: 14px;
+           line-height: 30px;
+           padding-left: 30px;
+        }
+        .btn_for{
+           height: 28px;
+           width: 100px;
+           background: url(../../img/openingClass.png) no-repeat 0 5px;
+           color: #363C54;
+           font-size: 14px ;
+           line-height: 30px;
+           padding-left: 30px;
+        }
+            
+    }
+}
+.class_schedule{
+    width: 98%;
+    height: 95%;
+    margin-top: 100px;
+    border:1px solid #e6e6e6;
+    padding: 0 10px 0 10px;
+    min-width: 1370px;
+    form{
+        border-top:#000000 ;
+    }
+    table{
+        border-collapse: collapse;
+        border-color: #f0f3f8;
+        border-width:1px;
+        border-style:solid;
+        border-left:#FFFFFF;
+        border-right:#FFFFFF;
+    }
+    td{
+        border-color: #f0f3f8;
+        border-width:1px;
+        border-style:solid;
+        text-align: center;
+        height: 50px;
+        width: 160px;
+        text-align: center;
+        position: relative;
+    }
+    tr td:last-child{
+        border-right: none;
+    }
+    tr td:first-child{
+        border-left: none;
+    }
+    table tr:last-child{
+        border-bottom: none;
+    }
+    span{
+        height: 100%;
+        vertical-align: middle;
+        line-height: 50px;
+    }
+    img{
+        vertical-align:middle;
+    }
+    dl{
+        height: 40px;
+        margin-top: 5px;
+        dt{
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+        }
+        dd{
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+        }
+    }
+    .bgColor{
+        background-color:#f9fafc;
+        height: 100%;
+        width: 100%;
+        
+    }
+    .td_right{
+        width:100px;
+        height: 48px;
+        padding-right: 5px;
+        padding-top: 2px;
+        .fr{
+            height: 10px;
+            width: 23px;
+        }
+    }
+    .openingClass{
+//      position: absolute;
+//      left: 0;
+//      top: 0;
+        height:50px ;
+        width: 155px;
+        background-color: #fdd5df;
+        font-size: 12px;
+        color: #DE5D7E;
+        display: inline-block;
+        .openingClassa{
+            height: 50px;
+            width: 50px;
+            background-color:#fba9be;
+            text-align:center;
+        }
+    }
+    .openClass{
+        height:50px ;
+        width: 155px;
+        background-color: #a4e9e8;
+        font-size: 12px;
+        color: #46bbbb;
+        display: inline-block;
+        .openClassa{
+            height: 50px;
+            width: 50px;
+            background-color:#4ddbdc;
+            text-align:center;
+        }
+    }
+    .fixedClass{
+        height:50px ;
+        width: 155px;
+        background-color: #B6D8FC;
+        font-size: 12px;
+        color: #3A77E9;
+        display: inline-block;
+        .fixedClassa{
+            height: 50px;
+            width: 50px;
+            background-color:#77B6FE;
+            text-align:center;
+        }
+    }
+    .snapClass{
+        height:50px ;
+        width: 155px;
+        background-color: #A9B5FE;
+        font-size: 12px;
+        color: #384AC2;
+        display: inline-block;
+        .snapClassa{
+            height: 50px;
+            width: 50px;
+            background-color:#6E81FA;
+            text-align:center;
+        }
+    }
+    
+}

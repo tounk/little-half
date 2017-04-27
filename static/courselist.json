@@ -1,0 +1,115 @@
+{
+    "data": [
+        {
+            "classType": 1,
+            "id": 20,
+            "isRunning": 1,
+            "lessonName": "语文",
+            "name": "天才班",
+            "qq_room_id": "111",
+            "roomAddress": "202",
+            "section": 2,
+            "week": 2,
+            "courseName":"三角函数切换"
+        },
+        {
+            "classType": 2,
+            "id": 20,
+            "isRunning": 1,
+            "lessonName": "语文",
+            "name": "天才班",
+            "qq_room_id": "111",
+            "roomAddress": "202",
+            "section": 1,
+            "week": 1,
+            "courseName":"三角函数切换"
+        },
+        {
+            "classType": 0,
+            "id": 21,
+            "isRunning": 0,
+            "lessonName": "数学",
+            "name": "天才少年班",
+            "qq_room_id": "111",
+            "roomAddress": "202",
+            "section": 3,
+            "week": 5,
+            "courseName":"三角函数切换"
+
+        },
+        {
+            "classType": 1,
+            "id": 22,
+            "isRunning": 0,
+            "lessonName": "数学",
+            "name": "天才少年班",
+            "qq_room_id": "111",
+            "roomAddress": "111",
+            "section": 5,
+            "week": 1,
+            "courseName":"三角函数切换"
+        },
+        {
+            "classType": 0,
+            "id": 23,
+            "isRunning": 1,
+            "lessonName": "语文",
+            "name": "天才少年班",
+            "qq_room_id": "111",
+            "roomAddress": "202",
+            "section": 7,
+            "week": 4,
+            "courseName":"三角函数切换"
+        },
+        {
+            "classType": 1,
+            "id": 24,
+            "isRunning": 1,
+            "lessonName": "数学",
+            "name": "天才少年班",
+            "qq_room_id": "111",
+            "roomAddress": "202",
+            "section": 2,
+            "week": 5,
+            "courseName":"三角函数切换"
+        },
+        {
+            "classType": 1,
+            "id": 25,
+            "isRunning": 1,
+            "lessonName": "语文",
+            "name": "天才少年班",
+            "qq_room_id": "111",
+            "roomAddress": "202",
+            "section": 2,
+            "week": 7,
+            "courseName":"三角函数切换"
+        },
+        {
+            "classType": 2,
+            "id": 25,
+            "isRunning": 1,
+            "lessonName": "语文",
+            "name": "天才少年班",
+            "qq_room_id": "111",
+            "roomAddress": "202",
+            "section": 6,
+            "week": 7,
+            "courseName":"三角函数切换"
+        },
+        {
+            "classType": 0,
+            "id": 25,
+            "isRunning": 0,
+            "lessonName": "语文",
+            "name": "天才少年班",
+            "qq_room_id": "111",
+            "roomAddress": "202",
+            "section": 5,
+            "week": 5,
+            "courseName":"三角函数切换"
+        }
+    ],
+    "msg": "测试内容6lsd",
+    "result": 70146
+}

@@ -1,0 +1,87 @@
+.handwork{
+    height: 100%;;
+    width: 100%;
+    
+    .big_title{
+        width: 100%;    
+        border-bottom: 1px solid #e6e6e6;       
+        height: 53px ;
+        line-height: 53px;
+        text-align: center;
+        font-size: 16px;
+    }
+    .done_worklist{
+       height: 100%;
+       width: 19%;
+       min-width: 180px ;
+       border-right:1px solid #E6E6E6;
+    }
+    .done_title{
+       height: 47px;
+       line-height: 47px;
+       .fr{
+           height: 47px;
+           width: 70px;
+           text-align: center;
+           padding-right: 20px;
+       }
+       .check{
+           height: 14px;
+           width: 14px;
+           border: 1px solid #E6E6E6;
+           display: inline-block;
+           margin-top: 18px;
+       }
+       .checkall{
+           float: right;
+       }
+   }
+   .left_content{
+       width: 100%;
+       min-width: 180px ;
+   }
+  .check{
+       height: 14px;
+       width: 14px;
+       border: 1px solid #E6E6E6;
+       display: inline-block;
+       margin-top: 18px;
+   }
+
+   .single{
+       height: 15px;
+       line-height: 15px;
+       width: 100%;
+       min-width: 180px ;
+       text-align: center;
+       margin-top: 20px;
+       .select{
+           background:url(../../img/select_show.png) no-repeat center center;
+           display: inline-block;
+           height: 15px;
+           width: 50px;
+       }
+   }
+   .single_chioce{
+       li{
+           height: 24px;
+           line-height: 24px;
+       }
+       span{
+           padding-left: 22px;
+       }
+   }
+   .left_bottom{
+       height: 24px;
+       width: 100%;
+       .save{
+           height: 24px;
+           line-height: 24px;
+           width: 90px;
+           background-color: #579bfe;
+           color: #FFFFFF;
+           display: inline-block;
+           text-align: center;
+       }
+   }
+}
